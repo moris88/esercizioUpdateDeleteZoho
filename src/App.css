@@ -1,0 +1,25 @@
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+button {
+  font-size: calc(10px + 2vmin);
+}
+
+.coloreRosso {
+  color: white;
+  font-weight: bold;
+  background-color: red;
+  border-radius: 15px;
+  border: none;
+  cursor: pointer;
+}
+
+.coloreRosso:hover {
+  background-color: blue;
+}
